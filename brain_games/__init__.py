@@ -1,1 +1,1 @@
-"""Example project."""
+"""The package contains functions that drive the project."""
