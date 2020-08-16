@@ -2,12 +2,12 @@
 
 """The module contains the function of start the game."""
 
-from brain_games.games.even import game
+from brain_games.games.even import get_game_data
 
 
 def main():
     """Start the game code."""
-    game()
+    get_game_data
 
 
 if __name__ == '__main__':
