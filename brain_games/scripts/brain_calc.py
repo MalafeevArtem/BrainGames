@@ -2,7 +2,7 @@
 
 """The module contains the function of start the game."""
 
-from brain_games.games.even import get_game_data
+from brain_games.games.calc import get_game_data
 
 
 def main():
