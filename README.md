@@ -6,7 +6,9 @@
 ## List of games:
 
 1. brain-even.
+2. brain-calc
 
 ## Example of installation and launch of the game:
 
 1. [Brain Even asciinema](https://asciinema.org/a/XiIfhCcecCxy4m3inWyjdbBX6).
+2. [Brain Calc asciinema] (https://asciinema.org/a/v58qpdNLkgBnqpZGZvrNZjnYC).
