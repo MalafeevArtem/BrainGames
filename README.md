@@ -8,9 +8,11 @@
 1. brain-even
 2. brain-calc
 3. brain-gcd
+4. brain-progression
 
 ## Example of installation and launch of the game:
 
 1. [Brain Even asciinema](https://asciinema.org/a/XiIfhCcecCxy4m3inWyjdbBX6)
 2. [Brain Calc asciinema](https://asciinema.org/a/v58qpdNLkgBnqpZGZvrNZjnYC)
 3. [Brain GCD asciinema](https://asciinema.org/a/mNeWV0mCFdyEU3hAs3YegzkX2)
+4. [Brain Progression asciinema](https://asciinema.org/a/ZvMpSTod2CkiiIqU1YpwgBvJM)
