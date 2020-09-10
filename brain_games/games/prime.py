@@ -5,7 +5,7 @@ from brain_games.index import play_game
 import math
 
 
-description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -39,7 +39,7 @@ def get_game_data():
     Collect game data.
 
     Returns:
-        description (str): Game rules.
+        DESCRIPTION (str): Game rules.
         data (list): Сontains a question and an answer.
     """
     number = random_generator()
@@ -50,4 +50,4 @@ def get_game_data():
     return game_data
 
 
-play_game(description, get_game_data)
+play_game(DESCRIPTION, get_game_data)

@@ -4,8 +4,8 @@ from brain_games.index import play_game
 from random import choice
 
 
-description = 'What number is missing in the progression?'
-length_progression = 10
+DESCRIPTION = 'What number is missing in the progression?'
+LENGTH_PROGRESSION = 10
 
 
 def create_progression(length, step):
@@ -58,11 +58,11 @@ def get_game_data():
     Collect game data.
 
     Returns:
-        description (str): Game rules.
+        DESCRIPTION (str): Game rules.
         data (list): Сontains a question and an answer.
     """
-    step = random_generator(1, length_progression - 1)
-    progression = create_progression(length_progression, step)
+    step = random_generator(1, LENGTH_PROGRESSION - 1)
+    progression = create_progression(LENGTH_PROGRESSION, step)
     true_answer = choice(progression)
     question = create_question(progression, true_answer)
 
@@ -71,4 +71,4 @@ def get_game_data():
     return game_data
 
 
-play_game(description, get_game_data)
+play_game(DESCRIPTION, get_game_data)

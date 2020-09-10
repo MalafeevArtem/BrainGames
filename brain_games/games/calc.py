@@ -5,7 +5,7 @@ from brain_games.index import play_game
 import random
 
 
-description = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 operations = ['+', '-', '*']
 
 
@@ -34,7 +34,7 @@ def get_game_data():
     Collect game data.
 
     Returns:
-        description (str): Game rules.
+        DESCRIPTION (str): Game rules.
         data (list): Сontains a question and an answer.
     """
     operation = random.choice(operations)
@@ -47,4 +47,4 @@ def get_game_data():
     return game_data
 
 
-play_game(description, get_game_data)
+play_game(DESCRIPTION, get_game_data)

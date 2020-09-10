@@ -3,7 +3,7 @@ from brain_games.random_number import random_generator
 from brain_games.index import play_game
 
 
-description = 'Answer "yes" if number even otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def is_even(number):
@@ -24,7 +24,7 @@ def get_game_data():
     Collect game data.
 
     Returns:
-        description (str): Game rules.
+        DESCRIPTION (str): Game rules.
         data (list): Сontains a question and an answer.
     """
     number = random_generator()
@@ -35,4 +35,4 @@ def get_game_data():
     return game_data
 
 
-play_game(description, get_game_data)
+play_game(DESCRIPTION, get_game_data)
