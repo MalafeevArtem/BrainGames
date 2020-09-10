@@ -9,6 +9,7 @@
 2. brain-calc
 3. brain-gcd
 4. brain-progression
+5. brain-prime
 
 ## Example of installation and launch of the game:
 
@@ -16,3 +17,4 @@
 2. [Brain Calc asciinema](https://asciinema.org/a/v58qpdNLkgBnqpZGZvrNZjnYC)
 3. [Brain GCD asciinema](https://asciinema.org/a/mNeWV0mCFdyEU3hAs3YegzkX2)
 4. [Brain Progression asciinema](https://asciinema.org/a/ZvMpSTod2CkiiIqU1YpwgBvJM)
+5. [Brain Prime asciinema](https://asciinema.org/a/maGWrkT2VKQ9V6B2qTO4aSkpQ)
