@@ -5,3 +5,4 @@ dist/
 .venv/
 .python-version
 .DS_store
+.vscode
