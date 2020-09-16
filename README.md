@@ -5,7 +5,7 @@
 
 ## Install 
 
-pip3 install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ malafeevartem-brain-games==0.1.8
+`pip3 install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ malafeevartem-brain-games==0.1.8`
 
 ## List of games:
 
