@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "MalafeevArtem_brain_games"
-version = "0.1.7"
+version = "0.1.8"
 description = "Contains simple mini-games"
 authors = ["Malafeev Artem <m.a.yevgenyevich@gmail.com>"]
 packages = [

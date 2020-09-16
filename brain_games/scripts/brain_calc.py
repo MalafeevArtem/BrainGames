@@ -2,12 +2,13 @@
 
 """The module contains the function of start the game."""
 
-from brain_games.games.calc import get_game_data
+from brain_games.index import play_game
+from brain_games.games import calc
 
 
 def main():
     """Start the game code."""
-    get_game_data()
+    play_game(calc)
 
 
 if __name__ == '__main__':

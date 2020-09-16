@@ -1,8 +1,8 @@
 """Game logic module."""
-from brain_games.random_number import random_generator
 from brain_games.index import play_game
 
 import math
+import random
 
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -42,12 +42,7 @@ def get_game_data():
         DESCRIPTION (str): Game rules.
         data (list): Сontains a question and an answer.
     """
-    number = random_generator()
-    question = 'Question: {0}'.format(number)
+    number = random.randint(1, 100)
     true_answer = 'yes' if is_prime(number) else 'no'
-    game_data = [question, true_answer]
-
-    return game_data
-
-
-play_game(DESCRIPTION, get_game_data)
+    
+    return (number, true_answer)

@@ -1,6 +1,7 @@
 """Game logic module."""
-from brain_games.random_number import random_generator
 from brain_games.index import play_game
+
+import random
 
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
@@ -34,13 +35,8 @@ def get_game_data():
         DESCRIPTION (str): Game rules.
         data (list): Сontains a question and an answer.
     """
-    operand1 = random_generator()
-    operand2 = random_generator()
-    question = 'Question: {0} {1}'.format(operand1, operand2)
+    operand1 = random.randint(1, 100)
+    operand2 = random.randint(1, 100)
     true_answer = str(find_gcd(operand1, operand2))
-    game_data = [question, true_answer]
 
-    return game_data
-
-
-play_game(DESCRIPTION, get_game_data)
+    return ('{0} {1}'.format(operand1, operand2), true_answer)
