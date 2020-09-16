@@ -1,6 +1,4 @@
 """Game logic module."""
-from brain_games.index import play_game
-
 import math
 import random
 
@@ -44,5 +42,5 @@ def get_game_data():
     """
     number = random.randint(1, 100)
     true_answer = 'yes' if is_prime(number) else 'no'
-    
+
     return (number, true_answer)

@@ -1,6 +1,4 @@
 """Game logic module."""
-from brain_games.index import play_game
-
 import random
 import operator
 
