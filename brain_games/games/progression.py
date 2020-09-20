@@ -30,4 +30,6 @@ def get_game_data():
 
         progression.append(part)
 
-    return (' '.join(progression), true_answer)
+    question = ' '.join(progression)
+
+    return (question, true_answer)

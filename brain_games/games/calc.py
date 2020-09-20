@@ -4,11 +4,11 @@ import operator
 
 
 DESCRIPTION = 'What is the result of the expression?'
-OPERATIONS = (
+operations = [
     ('+', operator.add),
     ('-', operator.sub),
     ('*', operator.mul),
-)
+]
 
 
 def get_game_data():
@@ -19,9 +19,10 @@ def get_game_data():
         DESCRIPTION (str): Game rules.
         data (list): Сontains a question and an answer.
     """
-    operation, calculate = random.choice(OPERATIONS)
+    operation, calculate = random.choice(operations)
     operand1 = random.randint(1, 100)
     operand2 = random.randint(1, 100)
     true_answer = str(calculate(operand1, operand2))
+    question = '{0} {1} {2}'.format(operand1, operation, operand2)
 
-    return ('{0} {1} {2}'.format(operand1, operation, operand2), true_answer)
+    return (question, true_answer)

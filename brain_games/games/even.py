@@ -26,7 +26,7 @@ def get_game_data():
         DESCRIPTION (str): Game rules.
         data (list): Сontains a question and an answer.
     """
-    number = random.randint(1, 100)
-    true_answer = 'yes' if is_even(number) else 'no'
+    question = random.randint(1, 100)
+    true_answer = 'yes' if is_even(question) else 'no'
 
-    return (number, true_answer)
+    return (question, true_answer)

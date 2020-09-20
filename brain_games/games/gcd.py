@@ -36,5 +36,6 @@ def get_game_data():
     operand1 = random.randint(1, 100)
     operand2 = random.randint(1, 100)
     true_answer = str(find_gcd(operand1, operand2))
+    question = '{0} {1}'.format(operand1, operand2)
 
-    return ('{0} {1}'.format(operand1, operand2), true_answer)
+    return (question, true_answer)
