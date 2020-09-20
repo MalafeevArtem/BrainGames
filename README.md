@@ -15,7 +15,7 @@ Mind Games is a set of five console games, built on the principle of popular mob
 
 ## Installation 
 
-    pip3 install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ malafeevartem-brain-games==0.1.8
+    pip3 install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ malafeevartem-brain-games==0.1.9
 
 ## Start
 
